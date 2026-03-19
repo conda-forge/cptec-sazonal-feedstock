@@ -1,5 +1,5 @@
 {% set name = "cptec-sazonal" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cptec-sazonal-{{ version }}.tar.gz
-  sha256: 9a43d1271a3b4a8f85eb00a65b844f4d6c083ae661b6192b0b8c24000baa8dc6
+  sha256: 7050979faabe58032cb2e3c1049c1f1335d08c69581facf076c1207a7a02e931
 
 build:
   noarch: python
